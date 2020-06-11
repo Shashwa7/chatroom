@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: rgba(255, 166, 0, 0.74);
+    font-weight: bold;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+.btn:hover{
+    background-color: rgb(255, 165, 0);
+}
+
+.formBtns
+{
+ background-color: rgb(77, 138, 252);
+ color: white;
+}
+.formBtns:hover{
+    background-color: rgb(32, 106, 243);
+    color: white;
+}
+.username{
+    font-weight: bold;
+}
+
+.time{
+    font-size: .85em;
+    color: grey;
+}
+
+.update-mssg{
+    text-align: center;
+    margin: 1rem;
+}
+
+.chat-window{
+    margin: 1.5rem 0;
+    max-height: 450px;
+    overflow: auto;
+}
+
+/*custom scrol design*/
+.chat-window::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  .chat-window::-webkit-scrollbar-track {
+    background: grey;
+  }
+  
+  .chat-window::-webkit-scrollbar-thumb {
+    background: orange;
+  }
